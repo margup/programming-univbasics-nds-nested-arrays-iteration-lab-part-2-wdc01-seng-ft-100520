@@ -2,9 +2,9 @@ def find_min_in_nested_arrays(src)
 new_array = [] 
 row_index = 0 
 max_value = -1
- while row_index < src.count do 
+ while row_index < src.length do 
    element_index = 0 
-   while element_index < src[row_index].count do 
+   while element_index < src[row_index].length do 
      if max_value < src[row_index][element_index]
        max_value = src[row_index][element_index]
      end
