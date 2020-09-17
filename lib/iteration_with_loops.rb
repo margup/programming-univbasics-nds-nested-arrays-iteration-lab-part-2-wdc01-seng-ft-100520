@@ -5,12 +5,12 @@ min_value = -1
  while row_index < src.count do 
    element_index = 0 
    while element_index < src[row_index].count do  
-     if max_value < src[row_index][element_index]
-       max_value = src[row_index][element_index]
+     if min_value < src[row_index][element_index]
+       min_value = src[row_index][element_index]
      end
      row_index += 1 
    end
-   new_array << max_value
+   new_array << min_value
  end
  new_array
      
