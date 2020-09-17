@@ -4,7 +4,7 @@ row_index = 0
 max_value = -1
  while row_index < src.length do 
    element_index = 0 
-   while element_index < src[row_index].length do 
+   while element_index < src[row_index].count do  
      if max_value < src[row_index][element_index]
        max_value = src[row_index][element_index]
      end
