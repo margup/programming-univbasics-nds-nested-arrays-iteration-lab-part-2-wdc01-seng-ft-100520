@@ -2,7 +2,7 @@
 def find_min_in_nested_arrays(src)
   row_index=0 
   new_array = []
-  min = 500
+  
   
   while row_index < src.count do 
     element_index = 0 
